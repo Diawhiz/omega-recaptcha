@@ -1,0 +1,64 @@
+{
+  "faces": [
+    {
+      "groupId": 1,
+      "images": [
+        {
+          "id": 1,
+          "url": "images/popcee.jpg",
+          "label": "Person 1"
+        },
+        {
+          "id": 2,
+          "url": "images/popcee1.jpg",
+          "label": "Person 1"
+        },
+        {
+          "id": 3,
+          "url": "images/popcee2.jpg",
+          "label": "Person 1"
+        }
+      ]
+    },
+    {
+      "groupId": 2,
+      "images": [
+        {
+          "id": 4,
+          "url": "images/feranmi.png",
+          "label": "Person 2"
+        },
+        {
+          "id": 5,
+          "url": "images/feranmi1.jpg",
+          "label": "Person 2"
+        },
+        {
+          "id": 6,
+          "url": "images/israel.jpg",
+          "label": "Person 2"
+        }
+      ]
+    },
+    {
+      "groupId": 3,
+      "images": [
+        {
+          "id": 4,
+          "url": "images/ebunoluwa.jpg",
+          "label": "Person 3"
+        },
+        {
+          "id": 5,
+          "url": "images/image3.jpg",
+          "label": "Person 3"
+        },
+        {
+          "id": 6,
+          "url": "images/ebunoluwa0.jpeg",
+          "label": "Person 3"
+        }
+      ]
+    }
+  ]
+}

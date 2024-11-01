@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom reCAPTCHA</title>
+    <meta name="description" content="Custom reCAPTCHA implementation">
+    <meta name="keywords" content="reCAPTCHA, custom, security">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Custom reCAPTCHA</h1>
+    </header>
+    <div class="alert-message">
+        <div class="success">
+            <p id="successmessage">Verification successful! <span id="icon">✔✔</span></p>
+        </div>
+        <div class="failure">
+            <p id="failuremessage">Verification failed. Please try again. <span id="icon">✖✖</span></p>
+        </div>
+    </div>
+    <div class="captcha container">
+        <div id="image-grid">
+            <!-- Image grid will be populated here -->
+        </div>
+        <button id="verify-button">Verify</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
